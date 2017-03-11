@@ -481,8 +481,10 @@ themes      : ['Default', 'Classic', 'Basic', 'Bootstrap3', 'Twitter', 'Raised',
   <div class="example">
     <h4 class="ui header">Horizontally Attached</h4>
     <p>A button can be attached to the left or right of other content</p>
-    <button class="ui left attached button">Left</button>
-    <button class="right attached ui button">Right</button>
+    <div class="ui horizontal buttons">
+        <button class="ui left attached button">Left</button>
+        <button class="right attached ui button">Right</button>
+    </div>
   </div>
 
 
